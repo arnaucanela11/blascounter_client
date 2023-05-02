@@ -1,0 +1,122 @@
+@media screen and (min-width: 900px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .first__line {
+    width: 40%;
+    border: 0.6px solid rgb(110, 110, 110);
+  }
+
+  .first__line__2 {
+    width: 150%;
+    margin-left: -10px;
+    filter: drop-shadow(0px 4px 5px #000000d2);
+  }
+}
+
+.logo__link {
+  padding-left: 30px;
+}
+
+.setup__div:hover:first-child::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+}
+
+.things__you__have__to__know {
+  background: linear-gradient(90deg, #9400d3 0%, #4b0082 74.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 6px rgba(148, 0, 211, 0.4);
+  font-weight: 800;
+}
+
+  .nav__mid__2 {
+    margin-right: -100px;
+  }
+
+.nav__right {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.sell__button {
+  padding: 13px 20px;
+  background: linear-gradient(60deg, #9400d3 0%, #320154 100%);
+  box-shadow: 0px 3px 17px rgba(7, 210, 255, 0.5);
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.login {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.92);
+  text-decoration: none;
+}
+
+.setup {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.92);
+  text-decoration: none;
+}
+
+.cart__button {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 0px 8px #33c1e0);
+  border: 1.5px solid #000000;
+  border-radius: 150px;
+  height: 50px;
+  width: 50px;
+}
+
+.cart__button__2 {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 1.5px solid #000000;
+  border-radius: 150px;
+  height: 50px;
+  width: 50px;
+}
+
+.cart__counter {
+  background-color: #f4692d;
+  z-index: 10;
+  color: white;
+  padding: 0px 4px;
+  position: absolute;
+  bottom: 0;
+  right: -2;
+}
+
+.cart__counter__2 {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+  z-index: 11;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 0px 4px;
+  position: absolute;
+  bottom: 0;
+  right: -2;
+}
+
+.logout__button {
+  border: none;
+  background: transparent;
+  position: relative;
+  padding-top: 7px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}

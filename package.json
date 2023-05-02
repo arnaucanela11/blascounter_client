@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@algolia/autocomplete-core": "^1.8.3",
+    "@reduxjs/toolkit": "^1.9.3",
+    "algoliasearch": "^4.17.0",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "formik": "^2.2.9",
     "next": "13.2.4",
+    "rc-slider": "^10.1.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-instantsearch-dom": "^6.39.1",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.10.0",
+    "redux-persist": "^6.0.0",
+    "universal-storage": "^0.0.4",
+    "yup": "^1.0.2"
   }
 }

@@ -1,0 +1,340 @@
+.sell__title {
+  font-weight: 700;
+  margin-left: -100px;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: 0.075em;
+
+  background: linear-gradient(81.6deg, #aaaaaa -47.6%, #000000 100.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.remember__div {
+  z-index: 10;
+  margin-top: 20px;
+  padding-right: 25px;
+  height: fit-content;
+  width: fit-content;
+  background: #ffffff;
+  animation: box-shadow-rotate 4s alternate infinite linear;
+  border-radius: 11px;
+}
+
+.remember {
+  margin-left: 20px;
+}
+
+.remember__list {
+  list-style-type: disc;
+  width: max-content;
+  margin-top: -5px;
+}
+
+li {
+  padding: 6px 0px;
+}
+
+.public__data__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: 0.075em;
+
+  background: linear-gradient(31.6deg, #aaaaaa -87.6%, #000000 100.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.public__data__div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  margin-top: -40px;
+}
+
+.public__data__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: -10px;
+  width: 500px;
+  height: fit-content;
+  padding-bottom: 20px;
+  box-shadow: 0px 3px 5px #777777;
+  border-radius: 11px;
+  position: relative;
+}
+
+.div__decoration {
+  width: 86.97px;
+  height: 18.74px;
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 15%, 82% 100%, 22% 100%);
+  bottom: 14px;
+  right: -18px;
+  background: radial-gradient(
+      77.64% 1672.69% at 75.61% 166.04%,
+      rgba(255, 0, 80, 0.71) 0%,
+      #00f2ea 46.18%,
+      #000000 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  transform: rotate(-45deg);
+}
+
+.account__name__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.account__name__input {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 250px;
+padding-left: 10px;
+}
+
+.account__name__input:focus {
+  outline: none;
+}
+
+.account__name__input::-webkit-input-placeholder {
+  color: rgba(69, 57, 57, 0.847);
+}
+
+.link__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.link__input {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 350px;
+padding-left: 10px; 
+}
+
+.link__input:focus {
+  outline: none;
+}
+
+.linkinput::-webkit-input-placeholder {
+  color: rgba(69, 57, 57, 0.847);
+}
+
+.pricing {
+  position: relative;
+  z-index: 10;
+  width: 580px;
+  margin-top: -8px;
+  height: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgb(195, 85, 11);
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.private__data__div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  margin-top: -40px;
+}
+
+.private__data__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: 0.075em;
+
+  background: linear-gradient(31.6deg, #aaaaaa -87.6%, #000000 100.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.account__email__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.account__email__input {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 350px;
+padding-left: 10px; 
+}
+
+.account__email__input:focus {
+  outline: none;
+}
+
+.account__email__input::-webkit-input-placeholder {
+  color: rgba(69, 57, 57, 0.847);
+}
+
+.email__password__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.email__password__input {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 250px;
+padding-left: 10px; 
+}
+
+.email__password__input:focus {
+  outline: none;
+}
+
+.email__password__input::-webkit-input-placeholder {
+  color: rgba(69, 57, 57, 0.847);
+}
+
+
+.account__password__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.account__password__input {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 250px;
+padding-left: 10px; 
+}
+
+.account__password__input:focus {
+  outline: none;
+}
+
+.account__password__input::-webkit-input-placeholder {
+  color: rgba(69, 57, 57, 0.847);
+}
+
+.alert {
+animation: box-shadow-rotate 4s alternate infinite linear;
+border-radius: 11px;
+height: fit-content;
+width: fit-content;
+padding-right: 15px;
+}
+
+@keyframes box-shadow-rotate {
+  0% {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -2px 4px 6px #00FFF0, 3px -2px 6px #9400D3;
+  }
+  100% {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 3px 6px #9400d3,
+    2px -1px 6px #00fff0;
+  }
+}
+
+.submit__button {
+  margin-left: 20px;
+  margin-top: 8px;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(60deg, #9400d3 0%, #320154 100%);
+  color: white;
+}
+
+.error__message {
+  color: red;
+}
+
+.past__content__div {
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+.past__content__div {
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.past__content__select {
+  box-shadow: 0px 3px 5px #777777;
+border-radius: 11px;
+height: 25px;
+border: none;
+width: 250px;
+padding-left: 10px; 
+}
+
+.past__content__select:focus {
+  outline: none;
+}
+
+.no__account__alert {
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+  height: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgb(195, 85, 11);
+  border-radius: 11px;
+  padding: 10px 20px;
+}

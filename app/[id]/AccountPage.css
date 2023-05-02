@@ -1,0 +1,127 @@
+.account__container {
+  width: 50%;
+  position: relative;
+  height: 30%;
+  margin: auto;
+  margin-top: 5%;
+  animation: box-shadow-rotate 4s alternate infinite linear;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.account__image {
+    border-radius: 100px;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("../../assets/photo-1634942536990-44b9aba4c712.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .account__name {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 6px;
+    font-size: x-large;
+    font-weight: 700;
+  }
+
+  .name__and__img__container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  @keyframes box-shadow-rotate {
+    0% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), -2px 4px 6px #00FFF0, 3px -2px 6px #9400D3;
+    }
+    100% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 3px 6px #9400d3,
+      2px -1px 6px #00fff0;
+    }
+  }
+
+  .price {
+    position: absolute;
+    right: 4%;
+    color: #f4692d;
+  font-weight: 900;
+  font-size: x-large;
+  }
+
+  .info__div {
+    width: fit-content;
+    height: fit-content;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 3px 5px #777777;
+    padding-right: 20px;
+  }
+
+  .info__ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+  }
+
+  .add__to__cart {
+    padding: 13px 20px;
+  background: linear-gradient(280deg, #10aecd 0%, #bb1dc9 100%);
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin: 20px 80px;
+  }
+
+  .bottom__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .link__button {
+    padding: 13px 20px;
+  background: linear-gradient(280deg, #bb1dc9 0%,  #10aecd 100%);
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  }
+
+  .div__decoration {
+    width: 206.97px;
+    height: 48.74px;
+    position: absolute;
+    /* clip-path: polygon(0% 0%, 100% 15%, 82% 100%, 22% 100%); */
+    bottom: 0px;
+    right: -70px;
+    background: radial-gradient(
+        77.64% 1672.69% at 75.61% 166.04%,
+        rgba(255, 0, 81, 0.501) 0%,
+        #00f2eaac 46.18%,
+        #000000a6 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    transform: rotate(-45deg);
+  }
+

@@ -1,0 +1,24 @@
+.footer__div {
+    background: linear-gradient(180.73deg, rgba(255, 255, 255, 0.304) 0.59%, rgb(255, 255, 255) -2.57%, #00ffeeb6 108.12%);
+    position: relative;
+    width: 104%;
+    height: fit-content;
+    left: -8px;
+    right: -8px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.links__h1 {
+    margin-left: 30px;
+    background: linear-gradient(93.28deg, rgba(217, 217, 217, 0.2) -99.85%, #121212 111.68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+ul > .Link {
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+}

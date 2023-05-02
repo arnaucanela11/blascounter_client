@@ -1,0 +1,97 @@
+.account__div {
+  position: relative;
+  width: 22rem;
+  height: 13.8rem;
+  border: #8d8c8c;
+  background: #ffffff;
+  box-shadow: 0px 3px 8px #8d8c8c;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.account__image {
+  border-radius: 100px;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url("../../assets/photo-1634942536990-44b9aba4c712.avif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.account__name {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  gap: 6px;
+  font-size: large;
+}
+
+.price {
+  right: 15px;
+  top: 11px;
+  position: absolute;
+  color: #f4692d;
+  font-weight: 800;
+  font-size: large;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  height: fit-content;
+  width: max-content;
+  gap: 5px;
+  position: relative;
+  margin-left: -30px;
+  padding-left: 10px;
+  border-left: #00000096 0.5px solid;
+}
+
+.div__decoration {
+  width: 86.97px;
+  height: 18.74px;
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 15%, 82% 100%, 22% 100%);
+  bottom: 14px;
+  right: -18px;
+  background: radial-gradient(
+      77.64% 1672.69% at 75.61% 166.04%,
+      rgba(255, 0, 80, 0.71) 0%,
+      #00f2ea 46.18%,
+      #000000 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  transform: rotate(-45deg);
+}
+
+.add__to__cart {
+  position: relative;
+  width: 47px;
+  height: 33px;
+  box-shadow: inset 0px -1px 4px rgba(7, 210, 255, 0.5),
+    inset 0px 1px 4px rgba(148, 0, 211, 0.6);
+  border-radius: 10px;
+  border: none;
+  z-index: 20px;
+}
+
+.add {
+  padding: 7px 5px 5px 14px;
+}
+
+.direct__link {
+  position: relative;
+  box-shadow: inset 0px 1px 4px rgba(7, 210, 255, 0.5), inset 0px -1px 4px rgba(148, 0, 211, 0.6);
+  border-radius: 10px;
+  padding: 6px 12px;
+  border: none;
+  z-index: 20px;
+}

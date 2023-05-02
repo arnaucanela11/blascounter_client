@@ -1,0 +1,93 @@
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 20px 60px;
+    height: fit-content;
+    padding-bottom: 20px;
+    animation: box-shadow-rotate 4s alternate infinite linear;
+    border-radius: 11px;
+    position: relative;
+
+}
+
+@keyframes box-shadow-rotate {
+    0% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -2px 4px 6px #00FFF0, 3px -2px 6px #9400D3;
+    }
+    100% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 3px 6px #9400d3,
+      2px -1px 6px #00fff0;
+    }
+  }
+
+  .account__div {
+    position: relative;
+  width: 19rem;
+  height: fit-content;
+  border: #8d8c8c;
+  background: #ffffff;
+  box-shadow: 0px 3px 8px #8d8c8c;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 15px;
+  }
+
+  .account__image {
+    border-radius: 100px;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("../../assets/photo-1634942536990-44b9aba4c712.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .account__name {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 6px;
+    font-size: large;
+  }
+
+  .main__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: fit-content;
+    width: max-content;
+    gap: 5px;
+    position: relative;
+    margin-left: -30px;
+    padding-left: 10px;
+    border-left: #00000096 0.5px solid;
+  }
+
+  .remove__button {
+    padding: 10px 18px;
+  background: linear-gradient(60deg, #9400d3 0%, #320154 100%);
+  box-shadow: 0px 3px 17px rgba(7, 210, 255, 0.5);
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  }
+
+  .buy__button {
+    padding: 13px 20px;
+  background: linear-gradient(0deg, #10cd4c 0%, #156e05 100%);
+  box-shadow: 0px 3px 17px rgba(7, 210, 255, 0.5);
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin: 20px 0px;
+  }

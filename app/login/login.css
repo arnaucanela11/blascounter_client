@@ -1,0 +1,97 @@
+
+
+.setup__title {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.login__form {
+    display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  width: 500px;
+  height: fit-content;
+  padding-bottom: 20px;
+  animation: box-shadow-rotate 4s alternate infinite linear;
+  border-radius: 11px;
+  position: relative;
+}
+
+.email__div {
+    margin-left: 20px;
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  @keyframes box-shadow-rotate {
+    0% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -2px 4px 6px #00FFF0, 3px -2px 6px #9400D3;
+    }
+    100% {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 3px 6px #9400d3,
+      2px -1px 6px #00fff0;
+    }
+  }
+  
+  .email__input {
+    box-shadow: 0px 3px 5px #777777;
+    border-radius: 11px;
+    height: 25px;
+    border: none;
+    width: 350px;
+    padding-left: 10px;
+  }
+  
+  .email__input:focus {
+    outline: none;
+  }
+  
+  .email__input::-webkit-input-placeholder {
+    color: rgba(69, 57, 57, 0.847);
+  }
+
+  .password__div {
+    margin-left: 20px;
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .password__input {
+    box-shadow: 0px 3px 5px #777777;
+    border-radius: 11px;
+    height: 25px;
+    border: none;
+    width: 250px;
+    padding-left: 10px;
+  }
+  
+  .password__input:focus {
+    outline: none;
+  }
+  
+  .password__input::-webkit-input-placeholder {
+    color: rgba(69, 57, 57, 0.847);
+  }
+
+  .submit__button {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: none;
+    z-index: 10;
+    background: linear-gradient(60deg, #9400d3 0%, #320154 100%);
+    color: white;
+  }
+  

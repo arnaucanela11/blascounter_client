@@ -1,0 +1,50 @@
+.search__div {
+    display: flex;
+    position: relative;
+}
+
+.search__input {
+    width: 200px;
+    border: 0.6px solid black;
+    border-radius: 20px;
+    z-index: 20;
+}
+
+.search__input:focus {
+    outline: none;
+  }
+
+.search__input::-webkit-input-placeholder {
+    color: rgba(69, 57, 57, 0.847);
+}
+
+.ais__Hits {
+    position: absolute;
+    z-index: 15;
+  width: 200px;
+  height: fit-content;
+  border: #8d8c8c;
+  background: #ffffff;
+  box-shadow: 0px 3px 8px #8d8c8c;
+  border-radius: 24px 24px 7px 7px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.hits__ul {
+    list-style: none;
+    width: max-content;
+    margin-top: 40px;
+    height: fit-content;
+    padding-left: 0;
+}
+
+.account__image {
+    border-radius: 100px;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../../assets/photo-1634942536990-44b9aba4c712.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
