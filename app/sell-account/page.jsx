@@ -46,7 +46,7 @@ const initialSellState = {
 
 const PostAccount = async (values) => {
   try {
-    const resp = await fetch("http://localhost:3001/api/accounts", {
+    const resp = await fetch("https://blascounterserver-production.up.railway.app/api/accounts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
