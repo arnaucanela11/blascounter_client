@@ -14,7 +14,7 @@ const initailaState = {
 
 const ValidateUser = async (values) => {
   try {
-    const resp = await fetch("http://localhost:3001/api/users/validate", {
+    const resp = await fetch("https://blascounterserver-production.up.railway.app/api/users/validate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

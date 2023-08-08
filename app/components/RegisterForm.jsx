@@ -37,7 +37,7 @@ const initailaState = {
 
 const PostUser = async (values) => {
   try {
-    const resp = await fetch("http://localhost:3001/api/users/register", {
+    const resp = await fetch("https://blascounterserver-production.up.railway.app/api/users/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
