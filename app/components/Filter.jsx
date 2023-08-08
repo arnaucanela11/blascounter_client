@@ -8,7 +8,7 @@ import Link from "next/link";
 import Search from "./Search";
 import { useEffect, useState } from "react";
 import Cross from "../../assets/Cross.svg";
-import Slider, {Range} from "rc-slider";
+import Slider from "rc-slider";
 import 'rc-slider/assets/index.css';  
 
 const Filter = (props) => {
@@ -107,6 +107,7 @@ const Filter = (props) => {
                     <div>
                       Select a past content:
                       <Image
+                        alt="cross"
                         src={Cross}
                         style={{
                           marginLeft: "100px",
@@ -132,9 +133,13 @@ const Filter = (props) => {
                     </select>
                   </label>
                   <label htmlFor="price" className="price-label">
-                    <span style={{
-                      fontSize: '16px'
-                    }}>Select a maximum price:</span>
+                    <span
+                      style={{
+                        fontSize: "16px",
+                      }}
+                    >
+                      Select a maximum price:
+                    </span>
                     <Slider
                       value={price}
                       onChange={handleChangeSlider}
@@ -143,13 +148,27 @@ const Filter = (props) => {
                       step={50}
                       className="price-slider"
                     />
-                    <div style={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      gap: '10px'
-                    }}><span style={{
-                      fontSize: '16px'
-                    }}>Max price:</span><input type="number" placeholder="Max price" value={price} min={price}/></div>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        gap: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "16px",
+                        }}
+                      >
+                        Max price:
+                      </span>
+                      <input
+                        type="number"
+                        placeholder="Max price"
+                        value={price}
+                        min={price}
+                      />
+                    </div>
                   </label>
                   <button type="submit" className="search__filter__button">
                     Filter

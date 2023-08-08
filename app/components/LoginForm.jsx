@@ -100,7 +100,7 @@ const LoginForm = () => {
           <span style={{
             marginTop: '7px',
             fontSize: '14px'
-          }}>If you don't have an account, <Link href='/setup'>Create an account</Link></span>
+          }}>If you do not have an account, <Link href='/setup'>Create an account</Link></span>
           </div>
         </form>
       )}

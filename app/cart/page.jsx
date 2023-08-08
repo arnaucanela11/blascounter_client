@@ -70,8 +70,8 @@ const CartPage = () => {
             {cart.length <= 0 ? (
               <span>Aún no hay objetos en tu carrito</span>
             ) : (
-              cart.map((account) => (
-                <div className="account__div">
+              cart.map((account, index) => (
+                <div className="account__div" key={index}>
                   <div className="account__name">
                     <div className="account__image" />
                     <span

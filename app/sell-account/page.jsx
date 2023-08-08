@@ -97,7 +97,7 @@ const SellAccount = () => {
               <h3 className="remember">Remember:</h3>
               <ul className="remember__list">
                 <li>
-                  We won’t post accounts with less than <b>5k followers</b>
+                  We will not post accounts with less than <b>5k followers</b>
                 </li>
                 <li>
                   We will only post accounts <b>with the name change avaible</b>{" "}
@@ -105,7 +105,7 @@ const SellAccount = () => {
                   (TikTok restrict it one time each 30 days)
                 </li>
                 <li>
-                  You can't claim your account back, but if anyone buy your
+                  You can not claim your account back, but if anyone buy your
                   <br /> account in 30 days, we will return your account to you
                   (with <br></br>the new password and email)
                 </li>
@@ -118,7 +118,7 @@ const SellAccount = () => {
                     <br />
                     correct
                   </b>
-                  , if not, we will notificate you that your account won’t be
+                  , if not, we will notificate you that your account will not be
                   posted
                 </li>
               </ul>

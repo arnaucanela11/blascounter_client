@@ -32,7 +32,7 @@ const Footer = () => {
             lineHeight: '28px'
         }}>
         Blascounter is a tiktok accounts marketplace which aim to help all the people<br /> that want to grow on tiktok 
-faster. Also, allow all the people that have a tiktok account <br />with quite followers and they don’t want it to earn
+faster. Also, allow all the people that have a tiktok account <br />with quite followers and they do not want it to earn
 money through selling their account. 
         </p>
         <h4 style={{

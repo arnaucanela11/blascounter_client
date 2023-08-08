@@ -174,7 +174,7 @@ const Main = () => {
             </button>
           </li>
           <li>
-            <span class="pagination-ellipsis">&hellip;</span>
+            <span class="pagination-ellipsis">{'\u2026'}</span>
           </li>
           <li>
             <button
