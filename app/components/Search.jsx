@@ -5,7 +5,7 @@ import { getAllAccounts } from "../api/handlers";
 import Link from "next/link";
 const algoliasearch = require("algoliasearch");
 
-const client = algoliasearch("HNWOOVTKSN", "a222ff2816ae4d59a1858ed959b47b17");
+
 const index = client.initIndex("test_index");
 
 
