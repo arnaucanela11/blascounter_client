@@ -51,6 +51,10 @@ background: #33C1E0;
 filter: blur(360px);
 }
 
+body {
+  font-size: 14px;
+}
+
 .dec__2 {
   position: absolute;
 width: 286px;

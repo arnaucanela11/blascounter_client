@@ -1,8 +1,9 @@
+import { Poppins } from "next/font/google";
 import { manrope } from "./fonts";
 import "./globals.css";
 // import { Providers } from "./store/provider";
 import { Providers } from "@/context/ContextProvider";
-
+const poppins = Poppins({subsets: ["latin"], weight: ['400', '500']})
 export const metadata = {
   title: "Blascounter",
   description: "TikTok accounts nimble marketplace",
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
         <title>Blascounter</title>
       </head>
       <body
-        className={manrope.className}
+        className={`${poppins.className}`}
         style={{
           overflowX: "hidden",
         }}

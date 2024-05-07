@@ -1,6 +1,6 @@
 export const getAnAccount = async (id) => {
   try {
-    const res = await fetch(`https://blascounterserver-production.up.railway.app/api/accounts/${id}`, {
+    const res = await fetch(`http://localhost:3008/setup/api/accounts/${id}`, {
       headers: { "Content-Type": "application/json" },
     });
     const account = await res.json();
@@ -12,7 +12,7 @@ export const getAnAccount = async (id) => {
 
 export const GetUserCart = async (_id) => {
   try {
-    const res = await fetch(`https://blascounterserver-production.up.railway.app/api/users/${_id}/cart`, {
+    const res = await fetch(`http://localhost:3008/api/users/${_id}/cart`, {
       method: "GET",
       headers: { "Content-Type": "application/json" },
     });
@@ -25,7 +25,7 @@ export const GetUserCart = async (_id) => {
 
 export const PutToCart = async (account, user) => {
   try {
-    const res = await fetch(`https://blascounterserver-production.up.railway.app/api/users/${user._id}`, {
+    const res = await fetch(`http://localhost:3008/api/users/${user._id}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ account }),
@@ -40,7 +40,7 @@ export const PutToCart = async (account, user) => {
 export const kickToCart = async (account, _id2) => {
   try {
     const res = await fetch(
-      `https://blascounterserver-production.up.railway.app/api/users/${account._id}/${_id2}`,
+      `http://localhost:3008/api/users/${account._id}/${_id2}`,
       {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
@@ -55,7 +55,7 @@ export const kickToCart = async (account, _id2) => {
 
 export const getAllAccounts = async (pastContent, maxPrice) => {
   try {
-    let url = "https://blascounterserver-production.up.railway.app/api/accounts";
+    let url = "http://localhost:3008/api/accounts";
     if (pastContent !== null && maxPrice !== null) {
       url += `?pastContent=${pastContent}`;
       url += `&maxPrice=${maxPrice}`
